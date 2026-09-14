@@ -49,8 +49,9 @@ Currency-Converter/
 │
 ├── index.html
 ├── style.css
-├── app.js
+├── first.js
 └── README.md
+    codes.js->country codes
 ```
 
 ## Learning Outcome
