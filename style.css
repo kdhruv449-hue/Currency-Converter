@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background-color: #f5e3ad;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main white card */
+.container {
+    background-color: white;
+
+    width: 360px;
+    min-height: 285px;
+
+    padding: 25px 22px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading */
+.container h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    color: #222;
+
+    margin-bottom: 25px;
+}
+
+/* Amount section */
+.Amount p {
+    font-size: 11px;
+    color: #333;
+
+    margin-bottom: 5px;
+}
+
+.Amount input {
+    width: 100%;
+    height: 34px;
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    padding: 0 10px;
+
+    font-size: 13px;
+
+    outline: none;
+}
+
+.Amount input:focus {
+    border-color: #ad4295;
+}
+
+/* From and To section */
+.dropdown {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-end;
+
+    margin-top: 20px;
+}
+
+/* Each From / To box */
+.form {
+    width: 120px;
+}
+
+.form p {
+    font-size: 11px;
+    color: #333;
+
+    margin-bottom: 5px;
+}
+
+/* Select container */
+.select {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 34px;
+
+    border: 1px solid #ddd;
+    border-radius: 6px;
+
+    padding: 3px 6px;
+
+    background-color: white;
+}
+
+/* Flag */
+.select img {
+    width: 24px;
+    height: 18px;
+
+    object-fit: cover;
+
+    margin-right: 5px;
+}
+
+/* Dropdown */
+.select select {
+    width: 100%;
+
+    border: none;
+    outline: none;
+
+    background-color: transparent;
+
+    font-size: 12px;
+
+    cursor: pointer;
+}
+
+/* Arrow between From and To */
+.dropdown::after {
+    content: "⇄";
+
+    font-size: 23px;
+    font-weight: bold;
+
+    color: #222;
+
+    position: absolute;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    margin-bottom: 5px;
+}
+
+/* Exchange message */
+.msg {
+    margin-top: 25px;
+
+    font-size: 12px;
+
+    color: #222;
+}
+
+/* Button */
+button {
+    width: 100%;
+
+    height: 34px;
+
+    margin-top: 22px;
+
+    border: none;
+    border-radius: 7px;
+
+    background-color: #ad4298;
+
+    color: white;
+
+    font-size: 13px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #963782;
+}
